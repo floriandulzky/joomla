@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="2.5" type="template">
+	<name>NMSFrohnleiten-Startpage</name>
+	<creationDate>2014-10-19</creationDate>
+	<author>Florian Dulzky</author>
+	<authorEmail>florian.dulzky@gmail.com</authorEmail>
+	<authorUrl>http://www.florian-dulzky.at</authorUrl>
+	<copyright>Florian Dulzky 2014 </copyright>
+	<license>None</license>
+	<version>1.0.0</version>
+	<description>Designed for NMS Frohnleiten</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>install.xml</filename>
+		<folder>img</folder>
+		<folder>css</folder>
+	</files>
+	<positions>
+		<position>position-01</position>
+		<position>position-02</position>
+		<position>position-3</position>
+		<position>position-04</position>
+		<position>position-05</position>
+	</positions>
+</extension>
+        

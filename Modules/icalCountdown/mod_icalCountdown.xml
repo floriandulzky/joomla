@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.1.0" client="site" method="upgrade">
+    <name>iCal Countdown</name>
+    <author>Florian Dulzky</author>
+    <version>1.0.0</version>
+    <description>A simple Countdown, to the next event from an ics file.</description>
+    <files>
+        <filename>mod_icalCountdown.xml</filename>
+        <filename module="mod_icalCountdown">mod_icalCountdown.php</filename>
+        <filename>index.html</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>tmpl/index.html</filename>
+        <folder>SGICalendar</folder>
+    </files>
+    <config>
+    </config>
+</extension>
