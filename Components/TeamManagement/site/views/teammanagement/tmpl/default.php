@@ -1,8 +1,8 @@
 <div class="teams">
 <?php foreach($this->teams as $team):?>
-	<div class="row" style="margin-bottom: 10px;">
+	<div class="row screen-height" style="margin-bottom: 10px;">
 		<?php if($team->image != ""): ?>
-	  		<div class="col-md-8">
+	  		<div class="col-md-8 image fixed">
 	  			<img src="<?php echo JURI::root() . $team->image; ?>" width="500" />
 	  		</div>
 	  		<div class="col-md-4">
